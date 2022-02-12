@@ -3,7 +3,7 @@ import { useQuery } from "react-query";
 
 export default function Popup() {
 
-    const { data, isError,isLoading ,isIdle,isStale,isLoadingError,isFetching} = useQuery(
+    const { data, isError,isLoading} = useQuery(
         ["characters", 1],
         async () => {
             let response = await fetch("https://icanhazdadjoke.com/slack")
