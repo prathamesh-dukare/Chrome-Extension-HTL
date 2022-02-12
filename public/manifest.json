@@ -2,8 +2,8 @@
   "manifest_version": 2,
   "version": "0.0.1",
   "short_name": "React App",
-  "name": "Create React App Sample",
-  "description": "Sample application showing how to create an extension with Create React App",
+  "name": "You Need Eye",
+  "description": "A extension to take care of your eyes",
   "browser_action": {
     "default_title": "CRE",
     "default_popup": "popup.html"
@@ -22,7 +22,6 @@
     "48": "img/icon-48.png",
     "128": "img/icon-128.png"
   },
-  "options_page": "options.html",
   "permissions": ["activeTab","notifications"],
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }
