@@ -1,10 +1,12 @@
-import Popup from '../Popup';
 import './Options.css';
+import Popup from '../Popup';
 
 function Options() {
   return (
     <div className="App">
-      <Popup/>
+      <header className="App-header">
+        <Popup/>
+      </header>
     </div>
   );
 }

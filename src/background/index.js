@@ -26,6 +26,6 @@ setInterval(function () {
     priority: 2,
     contextMessage: "To keep your eyes safe"
   });
-}, 1200000);
+}, 60000);
 
 console.log("done");
