@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# You Need eye
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Prathamesh-Dukare)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Prathamesh-Dukare) [![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/Prathamesh-Dukare) 
+## The Chrome extension to take care of your eyes 👀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Application Links
+FrontEnd Code -> https://github.com/Prathamesh-Dukare/Chrome-Extension-HTL
+<br>
+API Server running on -> https://replit.com/@PrathameshDukare/HTL-Project-Backend
+<br>
+# Tech Stack
+<b>FrontEnd</b>: Reactjs<br>
+<b>BackEnd</b>: Node-Express
+<br>
 
-## Available Scripts
+<b>Additional NPM Libraries</b>
+  - react-query: 3.34.14
+  - express.js : 4.17.2
+  - react-browser-extension-scripts :4.0.10
+  - react-dom: 17.0.2
 
-In the project directory, you can run:
+<br>
+<b>Styling</b>: CSS
+<br>
 
-### `npm start`
+<b>Deployment</b>: Chrome Web Store (...Pending)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+***This Project is a part of Hack The Leauge Hackathon in the theme of HealthCare***
+<br><br>
+***Glad to see you here! Show some love by Connecting on socials***
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Instagram](https://img.shields.io/static/v1.svg?label=follow&message=@its_duke__&color=grey&logo=instagram&style=flat&logoColor=white&colorA=blue)](https://www.instagram.com/its_duke__/) [![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@Prathameshdukare&color=grey&logo=linkedin&style=flat&logoColor=white&colorA=blue)](https://www.linkedin.com/in/Prathamesh-Dukare/) [![Twitter](https://img.shields.io/static/v1.svg?label=connect&message=@prathameshtwits&color=grey&logo=twitter&style=flat&logoColor=white&colorA=blue)](https://twitter.com/prathameshtwits)
