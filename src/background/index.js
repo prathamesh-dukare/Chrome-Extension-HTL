@@ -1,9 +1,17 @@
-// If your extension doesn't need a background script, just leave this file empty
+import img from './icon.png'
 
-messageInBackground();
+console.log("hello");
 
-// This needs to be an export due to typescript implementation limitation of needing '--isolatedModules' tsconfig
-export function messageInBackground() {
-  console.log('I can run your javascript like any other code in your project');
-  console.log('just do not forget, I cannot render anything !');
-}
+
+//eslint-disable-next-line no-undef
+let notiName = Math.random().toString();
+chrome.notifications.create(notiName, {
+  type: 'basic',
+  iconUrl: img,
+  title: 'Its a Reminder!',
+  message: 'Look 20 Ft away for 20 Seconds to relax the strain on your eyes',
+  priority: 2,
+  contextMessage: "To keep your eyes safe"
+});
+
+console.log("done");
