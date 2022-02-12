@@ -1,22 +1,20 @@
 import './App.css';
 import img from './icon.png'
+import Popup from './Popup';
+
+import { QueryClient, QueryClientProvider } from "react-query";
+const queryClient = new QueryClient();
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={img} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <QueryClientProvider client={queryClient}>
+           <Popup/>
+        </QueryClientProvider>
+       <p></p>
       </header>
     </div>
   );
