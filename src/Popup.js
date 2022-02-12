@@ -4,9 +4,9 @@ import { useQuery } from "react-query";
 export default function Popup() {
 
     const { data, isError,isLoading} = useQuery(
-        ["characters", 1],
+        ["fact"],
         async () => {
-            let response = await fetch("https://icanhazdadjoke.com/slack")
+            let response = await fetch("https://htl-project-backend.prathameshdukare.repl.co/random")
             return response.json()
         }
     );
@@ -22,7 +22,7 @@ export default function Popup() {
 
   return (
     <div>
-       {data.attachments[0].text}
+       {data.facttext}
     </div>
   )
 }
