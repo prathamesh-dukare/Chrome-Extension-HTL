@@ -13,25 +13,25 @@ Note : This extension will work on any chromium based browser such as Chrome, Br
 3. Run `npm run-script build` / `yarn build` in the root directory.
 2. Navigate to chrome://extensions/
 3. Toggle the developer mode (Activate it).
-4. Click on 'Load Unpacked'
+4. Click on 'Load Unpacked'.
 5. Select the build folder.
 ## Inspiration
 More than 50% of the users face CVS(Computer Vision Syndrome) which gives a discomfort to their eyes due to the screen they are using. Reducing this stressful problem became our goal for  this Hackathon. 
 ## What it does
-Mission Vision is a Chrome Extension which reminds you to take a break from your busy and tedious scheduel. 
-This popup on your browser reminds you to look away every 20 minutes at an object that is about 20 feet away for a full 20 seconds. Mission Vision also makes you aware about lots of facts about your eyes while you relax.
+Mission Vision is a Chrome Extension which reminds you to take a break from your busy and tedious schedule. 
+This popup on your browser reminds you to look away every 20 minutes at an object that is about 20 feet away for a full 20 seconds. Mission Vision also makes you aware about lots of facts about your eyes.
 ## How we built it
 We used Figma for design prototype, Used React.js for frontend and Node.js for backend to serve dynamic fact via API.
 ## Challenges we ran into
 Our biggest challenge was figuring out how to make the extension work on most of the browsers. We used the chrome API to detect the browser and then we used the browser API to detect the version of the browser.
-Our 2nd challenge was to handle the server errors thankfully [React Query](https://react-query.tanstack.com/) helped us acively handle the errors from server.
+Our 2nd challenge was to handle the server errors, thankfully [React Query](https://react-query.tanstack.com/) helped us actively handle the errors from server.
 ## Accomplishments that we're proud of
-We were able to implement a custom caching mechanism to store latest facts in the browser to serve offline.
+We were able to implement a custom caching mechanism to store latest facts in the browser to serve offline. And yes, Our extension works on every chromium based browser.
 ## What we learned
 We learned about how exactly brower extentions work and how to make them work on most of the browsers.
 Also, We learned a lot about how to work in a team environment and how to break down a project into smaller pieces.
-We learned how to use the documentation for building and understanding the things unknown to us.
-## What's next for Happi
+We learned how to use the documentation for building and understanding the concepts.
+## What's next for Mission Vision
 We are planning to add support to firefox browser.
 Wanted to add fun activities in the extension which will keep your eyes healthy.
 
@@ -58,6 +58,7 @@ API Server running on -> https://replit.com/@PrathameshDukare/HTL-Project-Backen
 <b>Deployment</b>: Chrome Web Store (...Pending)
 
 ***This Project is a part of Hack The Leauge Hackathon in the theme of HealthCare***
+![full_width](https://user-images.githubusercontent.com/78253900/153744496-e7a1f8c4-3bb1-4d56-bc83-7db86fa60a26.png)
 <br><br>
 ***Glad to see you here! Show some love by Connecting on socials***
 
