@@ -1,10 +1,10 @@
 # Mission Vision Chrome Extension
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Prathamesh-Dukare)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Prathamesh-Dukare) [![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/Prathamesh-Dukare) 
-## The Chrome extension to take care of your eyes 👀
-#### See Demo Video : https://youtube.com
-#### See on Chrome web store : (...Pending)
+## The Chrome extension to take care of your eyes while working on your computer 👀
+See Demo Video : https://youtube.com
 
+On Chrome Web Store : ( Pending - Coming soon )
 ## How to use this extension
 Note : This extension will work on any chromium based browser such as Chrome, Brave, Edge etc.
 ## Steps to Install
