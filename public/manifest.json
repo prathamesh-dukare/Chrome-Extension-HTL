@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "version": "0.0.1",
-  "short_name": "React App",
-  "name": "You Need Eye",
-  "description": "A extension to take care of your eyes",
+  "short_name": "Mission Eye",
+  "name": "Mission Eye",
+  "description": "A extension to take care of your eyes.I will remind you every 20 mins to ralax your eyes.You'll see new fact about eyes when open popup.",
   "browser_action": {
     "default_title": "CRE",
     "default_popup": "popup.html"

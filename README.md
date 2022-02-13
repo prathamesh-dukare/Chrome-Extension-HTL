@@ -1,10 +1,22 @@
-# You Need eye
+# Mission Vision Chrome Extension
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Prathamesh-Dukare)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Prathamesh-Dukare) [![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/Prathamesh-Dukare) 
 ## The Chrome extension to take care of your eyes 👀
 ### See Demo Video : https://youtube.com
-<br>
+### See on Chrome web store : (...Pending)
 
+## How to use this extension
+Note : This extension will work on any chromium based browser such as Chrome, Brave, Edge etc.
+
+
+## Steps to Install
+1. Clone this repository.
+2. Run `npm install` in the root directory.
+3. Run `npm run-script build` / `yarn build` in the root directory.
+2. Navigate to chrome://extensions/
+3. Toggle the developer mode (Activate it).
+4. Click on 'Load Unpacked'
+5. Select the build folder.
 ## Inspiration
 Mental health is important, especially for expecting or postpartum mothers! We wanted to offer a friendly bot to help out!
 ## What it does
@@ -36,8 +48,8 @@ API Server running on -> https://replit.com/@PrathameshDukare/HTL-Project-Backen
   - react-browser-extension-scripts :4.0.10
   - react-dom: 17.0.2
 <br>
+
 <b>Styling</b>: CSS
-<br>
 
 <b>Deployment</b>: Chrome Web Store (...Pending)
 
