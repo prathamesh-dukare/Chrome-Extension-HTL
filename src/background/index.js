@@ -26,6 +26,9 @@ setInterval(function () {
     priority: 2,
     contextMessage: "To keep your eyes safe"
   });
-}, 3000000);
+  //Removing a badge
+  chrome.browserAction.setBadgeText(
+    { text: "" })
+}, 1200000);
 
 console.log("done");

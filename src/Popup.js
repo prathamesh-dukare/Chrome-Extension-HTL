@@ -1,5 +1,6 @@
 import React from 'react'
 import { useQuery } from "react-query";
+import img from './icon.png'
 
 export default function Popup() {
 
@@ -11,18 +12,42 @@ export default function Popup() {
         }
     );
     if(!navigator.onLine){
-        return <div>Please Go Online</div>
+        return <div className='popup-section'>
+        <div className="hero">
+        <img className='img' src={img} alt="Eye" />
+        <h1>Eye Fact</h1>
+        </div>
+           <p className="fact-text">
+             Go Online to see the fact
+           </p>
+        </div>
     }
     if (isLoading) {
-        return <div>loading...</div>
+        return <div className='popup-section'>
+        <img className='img' src={img} alt="Eye" />
+        <h1>Eye Fact</h1>
+           <p className="fact-text">
+             loading...
+           </p>
+        </div>
     }
     if (isError) {
-        return <div>Server Error Occured!</div>;
+        return <div className='popup-section'>
+        <img className='img' src={img} alt="Eye" />
+        <h1>Eye Fact</h1>
+           <p className="fact-text">
+             Unable to Fetch!
+           </p>
+        </div>
       }
 
   return (
-    <div>
-       {data.facttext}
+    <div className='popup-section'>
+    <img className='img' src={img} alt="Eye" />
+    <h1>Eye Fact</h1>
+       <p className="fact-text">
+         {data.facttext}
+       </p>
     </div>
   )
 }

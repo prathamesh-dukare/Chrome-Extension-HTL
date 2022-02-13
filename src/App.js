@@ -10,7 +10,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={img} className="App-logo" alt="logo" />
         <QueryClientProvider client={queryClient}>
            <Popup/>
         </QueryClientProvider>
