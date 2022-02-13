@@ -1,14 +1,17 @@
-import React from 'react'
+import React,{useState} from 'react'
+
 import { useQuery } from "react-query";
 import img from './icon.png'
 
 export default function Popup() {
-
+    const [cachedFact, setcachedFact] = useState("");
     const { data, isError,isLoading} = useQuery(
         ["fact"],
         async () => {
             let response = await fetch("https://htl-project-backend.prathameshdukare.repl.co/random")
-            return response.json()
+            let json = await response.json();
+            setcachedFact(json.facttext)
+            return json
         }
     );
     if(!navigator.onLine){
@@ -18,8 +21,9 @@ export default function Popup() {
         <h1>Eye Fact</h1>
         </div>
            <p className="fact-text">
-             Go Online to see the fact
+             {cachedFact}
            </p>
+              <p>Go Online see see new fact!</p>
         </div>
     }
     if (isLoading) {

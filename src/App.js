@@ -1,5 +1,4 @@
 import './App.css';
-import img from './icon.png'
 import Popup from './Popup';
 
 import { QueryClient, QueryClientProvider } from "react-query";
@@ -13,7 +12,6 @@ function App() {
         <QueryClientProvider client={queryClient}>
            <Popup/>
         </QueryClientProvider>
-       <p></p>
       </header>
     </div>
   );
