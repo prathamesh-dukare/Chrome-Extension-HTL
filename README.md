@@ -16,19 +16,25 @@ Note : This extension will work on any chromium based browser such as Chrome, Br
 4. Click on 'Load Unpacked'
 5. Select the build folder.
 ## Inspiration
-Mental health is important, especially for expecting or postpartum mothers! We wanted to offer a friendly bot to help out!
+More than 50% of the users face CVS(Computer Vision Syndrome) which gives a discomfort to their eyes due to the screen they are using. Reducing this stressful problem became our goal for  this Hackathon. 
 ## What it does
-Happi is a website with a chatbot geared towards helping mothers. Its aim is to direct users to certain resources depending on user’s symptoms, a Community where users can read and post questions and blogs about their experience, and Professionals that provide answers to your questions and provide informative information
+Mission Vision is a Chrome Extension which reminds you to take a break from your busy and tedious scheduel. 
+This popup on your browser reminds you to look away every 20 minutes at an object that is about 20 feet away for a full 20 seconds. Mission Vision also makes you aware about lots of facts about your eyes while you relax.
 ## How we built it
-We used Figma for our wireframe design, Javascript, CSS, and React.
+We used Figma for design prototype, Used React.js for frontend and Node.js for backend to serve dynamic fact via API.
 ## Challenges we ran into
-Our biggest challenge was figuring out how to implement a chatbot with a dialogue tree. Originally, we wanted to train a machine learning AI to respond to text inputs, but later we decided to go with a more guided conversation flow. The dialogue tree chatbot took far longer than we expected it to, so we had to scale back the project's features to make the deadline.
+Our biggest challenge was figuring out how to make the extension work on most of the browsers. We used the chrome API to detect the browser and then we used the browser API to detect the version of the browser.
+Our 2nd challenge was to handle the server errors thankfully [React Query](https://react-query.tanstack.com/) helped us acively handle the errors from server.
 ## Accomplishments that we're proud of
-We were able to implement a chatbot with a simple conversation flow thanks to Space10 Conversation Form and its React wrapper.
+We were able to implement a custom caching mechanism to store latest facts in the browser to serve offline.
 ## What we learned
-We learned about basic machine learning in Python and how it wasn't the right fit for our project, and we generally brushed up on React and design skills. Not all of us had used React before this project, so it was a good learning experience! 
+We learned about how exactly brower extentions work and how to make them work on most of the browsers.
+Also, We learned a lot about how to work in a team environment and how to break down a project into smaller pieces.
+We learned how to use the documentation for building and understanding the things unknown to us.
 ## What's next for Happi
-The chatbot function needs to be improved as well as finish the layout for webpage design. We hope we can expand this to help ease the stress of motherhood!
+We are planning to add support to firefox browser.
+Wanted to add fun activities in the extension which will keep your eyes healthy.
+
 
 # Application Links
 FrontEnd Code -> https://github.com/Prathamesh-Dukare/Chrome-Extension-HTL
