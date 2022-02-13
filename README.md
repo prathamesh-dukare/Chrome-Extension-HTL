@@ -2,7 +2,7 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Prathamesh-Dukare)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Prathamesh-Dukare) [![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/Prathamesh-Dukare) 
 ## The Chrome extension to take care of your eyes while working on your computer 👀
-See Demo Video : https://youtube.com
+See Demo Video : https://youtu.be/nZRVMrnfxd4
 
 On Chrome Web Store : ( Pending - Coming soon )
 ## How to use this extension
@@ -30,10 +30,11 @@ We were able to implement a custom caching mechanism to store latest facts in th
 ## What we learned
 We learned about how exactly brower extentions work and how to make them work on most of the browsers.
 Also, We learned a lot about how to work in a team environment and how to break down a project into smaller pieces.
-We learned how to use the documentation for building and understanding the concepts.
+We learned how to use the documentation for understanding the concepts.
 ## What's next for Mission Vision
-We are planning to add support to firefox browser.
+We are planning to add support to firefox browser & Improve the UI of our extension.
 Wanted to add fun activities in the extension which will keep your eyes healthy.
+
 
 
 # Application Links
